@@ -4,7 +4,7 @@ This document explores key programming language concepts such as Object-Oriented
 
 ## Featured Projects
 - **Node.js Movie API** ([GitHub Repository](https://github.com/ohalukkarakaya/node-movie-api)): A RESTful API for managing a movie database.
-- **Terminal Fire Animation** ([GitHub Repository](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation)): A responsive app for weather forecasting.
+- **Terminal Fire Animation** ([GitHub Repository](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation)): A C++ project that generates a dynamic fire animation in the terminal.
 - **C++ Mongoose Library** ([GitHub Repository](https://github.com/ohalukkarakaya/cpp-mongoose)): A MongoDB schema manager built in C++.
 - **Enigma Machine Simulation** ([GitHub Repository](https://github.com/ohalukkarakaya/Enigma-cpp)): A simulation of the Enigma encryption machine in C++.
 - **CLI Slot Game** ([GitHub Repository](https://github.com/ohalukkarakaya/cli-slot-game)): A command-line slot machine game demonstrating functional programming concepts in C++.
