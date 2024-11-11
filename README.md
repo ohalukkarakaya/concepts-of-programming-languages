@@ -8,6 +8,10 @@ This document explores key programming language concepts such as Object-Oriented
 - **C++ Mongoose Library** ([GitHub Repository](https://github.com/ohalukkarakaya/cpp-mongoose)): A MongoDB schema manager built in C++.
 - **Enigma Machine Simulation** ([GitHub Repository](https://github.com/ohalukkarakaya/Enigma-cpp)): A simulation of the Enigma encryption machine in C++.
 - **CLI Slot Game** ([GitHub Repository](https://github.com/ohalukkarakaya/cli-slot-game)): A command-line slot machine game demonstrating functional programming concepts in C++.
+  
+
+> ⚠️  &nbsp; All projects referenced in this document have been developed by **Özgür Haluk KARAKAYA** (myself).
+
 
 ## 📋 Table of Contents
 - [<code>🧩 Fundamentals</code>](#-fundamentals)
