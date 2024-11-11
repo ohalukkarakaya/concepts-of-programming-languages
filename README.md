@@ -4,7 +4,7 @@ This document explores key programming language concepts such as Object-Oriented
 
 ## Featured Projects
 - **Node.js Movie API** ([GitHub Repository](https://github.com/ohalukkarakaya/node-movie-api)): A RESTful API for managing a movie database.
-- **Flutter Weather Forecast App** ([GitHub Repository](https://github.com/ohalukkarakaya/flutter-weather-forecast/tree/master)): A responsive app for weather forecasting.
+- **Terminal Fire Animation** ([GitHub Repository](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation)): A responsive app for weather forecasting.
 - **C++ Mongoose Library** ([GitHub Repository](https://github.com/ohalukkarakaya/cpp-mongoose)): A MongoDB schema manager built in C++.
 - **Enigma Machine Simulation** ([GitHub Repository](https://github.com/ohalukkarakaya/Enigma-cpp)): A simulation of the Enigma encryption machine in C++.
 - **CLI Slot Game** ([GitHub Repository](https://github.com/ohalukkarakaya/cli-slot-game)): A command-line slot machine game demonstrating functional programming concepts in C++.
@@ -23,20 +23,20 @@ This document explores key programming language concepts such as Object-Oriented
 Variables in programming are fundamental for storing data, and their scope determines accessibility within various parts of the program.
 
 - **Example in Node.js**: In the [Node Movie API](https://github.com/ohalukkarakaya/node-movie-api) project, local variables declared with `let` or `const` within routes (e.g., `routes/movies.js`) are accessible only within that function scope, preventing unintended access.
-- **Example in Flutter**: In the [Flutter Weather Forecast App](https://github.com/ohalukkarakaya/flutter-weather-forecast/tree/master), variables like `weatherData` in `lib/screens/home.dart` are scoped to the widget, ensuring that each widget manages its own state independently.
+- **Example in C++**: In the [Terminal Fire Animation](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation), project, variables like `width` and `height` are defined within the `main` function, ensuring they are scoped locally and not accessible outside this function, which helps in maintaining encapsulation and preventing unintended side effects.
 
 ### 2. Typing Systems (Static/Dynamic)
 
 Typing systems define when and how variable types are checked.
 
 - **Node.js (Dynamic Typing)**: JavaScript’s typing is dynamic, so variables can change types at runtime. For example, in the Node Movie API project, `let genre = 'Action';` could later be reassigned to a number if needed.
-- **Flutter (Static Typing)**: Dart, used in Flutter, is statically typed, so types are determined at compile-time. In `lib/models/weather.dart`, fields like `final String description` ensure that `description` can only be a string, providing additional safety.
+- **C++ (Static Typing)**: C++ is statically typed, meaning variable types are determined at compile-time. In the [Terminal Fire Animation](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation) project, variables such as `int width` and `int height` have their types explicitly declared, ensuring type safety and preventing type-related errors during compilation.
 
 ### 3. Type Inference
 
 Type inference allows the compiler or interpreter to deduce variable types automatically.
 
-- **Flutter**: Dart supports type inference, as seen in `var temperature = 23;` within the Weather Forecast project, where Dart infers `temperature` as an `int`.
+- **C++**: While C++ is statically typed, it supports type inference through the `auto` keyword. In the [Terminal Fire Animation](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation) project, using auto can simplify code by allowing the compiler to infer the type of a variable from its initializer, reducing verbosity and potential errors.
 
 ## 🏛️ Object-Oriented Programming
 
