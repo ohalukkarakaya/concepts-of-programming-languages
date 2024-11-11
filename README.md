@@ -13,7 +13,8 @@ This document explores key programming language concepts such as Object-Oriented
 - [<code>🧩 Fundamentals</code>](#-fundamentals)
 - [<code>🏛️ Object-Oriented Programming</code>](#%EF%B8%8F-object-oriented-programming)
 - [<code>🧑‍💻 Functional Programming</code>](#-functional-programming)
-
+- [<code>🚀 Advanced Topics</code>](#-advanced-topics)
+  
 ---
 
 ## 🧩 Fundamentals
@@ -134,3 +135,26 @@ Pure functions are those that, given the same input, always produce the same out
 Higher-order functions are functions that can take other functions as arguments or return them as results. In this project, the use of higher-order functions is evident in the implementation of the game's mechanics. For instance, functions that handle the animation of the slot reels may accept other functions as parameters to customize the behavior of the animation, such as the speed or pattern of the spin. This approach enhances the modularity and reusability of the code.
 
 By adhering to functional programming principles, the [`cli-slot-game`](https://github.com/ohalukkarakaya/cli-slot-game) achieves a clean and maintainable codebase, facilitating easier testing and debugging.
+
+## 🚀 Advanced Topics
+
+### 1. Reflection
+
+Reflection enables a program to inspect and manipulate objects, methods, and properties at runtime. This feature is commonly used for tasks such as dynamic type checking, method invocation, and property access in languages with runtime type information. In C++, reflection is not built-in as it is in some other languages, but certain workarounds and libraries (such as `typeid`, RTTI, and `std::type_info`) can offer basic reflection capabilities.
+
+**Examples**
+
+- **C++ Mongoose Library**: In the [cpp-mongoose](https://github.com/ohalukkarakaya/cpp-mongoose) project, type information can be extracted at runtime to handle different database schema configurations dynamically. Using `typeid` and `std::type_info`, the project can determine the specific type of schema being accessed, making the code adaptable to different MongoDB data structures.
+  
+- **Terminal Fire Animation**: In the [scheumine--terminal-fire-animation](https://github.com/ohalukkarakaya/scheumine--terminal-fire-animation) project, although it doesn’t use full reflection, runtime type checking could be useful for managing different display types or color effects. For instance, using `typeid` to check the types of display components might allow for customization based on terminal capabilities, improving adaptability without hardcoding all possible configurations.
+
+### 2. Generics
+
+Generics allow a class, function, or data structure to operate on different data types while providing compile-time type safety. They enhance code reusability and flexibility by allowing functions and classes to work with any data type. In C++, generics are implemented using templates.
+
+**Examples**
+
+- **Enigma Machine Simulation**: In the [Enigma-cpp](https://github.com/ohalukkarakaya/Enigma-cpp) project, templates can be used to define generic encryption or processing functions that accept various types of data or components. By using templates, this project can implement algorithms that work with different encryption components or even new components that might be added later, increasing flexibility and reusability.
+  
+- **CLI Slot Game**: The [cli-slot-game](https://github.com/ohalukkarakaya/cli-slot-game) project uses templates for handling various data types in game mechanics and rendering output. For example, using a template-based function to generate slot symbols allows the game to be adapted for different types of symbols without modifying core logic, enhancing modularity and reusability.
+
